@@ -7,13 +7,14 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "My Portfolio Website",
-    image: "/images/projects/p1.1.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/yashashvi03/my-portfolio",
-    previewUrl: "/",
+    title: "SUMROP | Smart Urban Mobility and Resource Optimization Platform",
+    description: " A web application that enables City Authorities to track, maintain, and optimize assets, while allowing citizens to report and track issues.",
+    image: "/images/projects/p4.png",
+    tag: ["All","Web"],
+    gitUrl: "/",
+    previewUrl: "https://sumrop-dvnshis-projects.vercel.app/",
   },
+ 
   {
     id: 2,
     title: "Play2Learn | Gamified E-Learning Platform",
@@ -34,12 +35,12 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "SUMROP | Smart Urban Mobility and Resource Optimization Platform",
-    description: " A web application that enables City Authorities to track, maintain, and optimize assets, while allowing citizens to report and track issues.",
-    image: "/images/projects/p4.png",
-    tag: ["All","web"],
-    gitUrl: "/",
-    previewUrl: "https://sumrop-dvnshis-projects.vercel.app/",
+    title: "React Portfolio Website",
+    description: "My Portfolio Website",
+    image: "/images/projects/p1.1.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/yashashvi03/my-portfolio",
+    previewUrl: "/",
   },
   // {
   //   id: 5,
