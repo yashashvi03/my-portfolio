@@ -48,7 +48,8 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1BCvLzOA4Td1hFLDXg-CEm-VVyGU6Z6s2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1c0Eb3XXPCzkv9jNT0l0Ct8LzdB5D9t65/view?usp=sharing"
+              // href="https://drive.google.com/file/d/1BCvLzOA4Td1hFLDXg-CEm-VVyGU6Z6s2/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
@@ -65,8 +66,8 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/myImage.png"
-              //  src="/images/my1.png"
+              // src="/images/myImage.png"
+               src="/images/my1.png"
               alt="hero image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               width={300}
