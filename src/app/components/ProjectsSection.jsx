@@ -28,7 +28,7 @@ const projectsData = [
     title: "Spy-i | Dark Pattern Recognition—Web Browser Extension",
     description: "Designed to highlight dark patterns on website without obstructing content.",
     image: "/images/projects/p3.png",
-    tag: ["All", "Web"],
+    tag: ["All"],
     gitUrl: "https://github.com/CodeCrafterss-10Lakh/spy-i",
     previewUrl: "https://github.com/CodeCrafterss-10Lakh/spy-i",
   },
@@ -95,11 +95,11 @@ const ProjectsSection = () => {
           name="Web"
           isSelected={tag === "Web"}
         />
-        <ProjectTag
+        {/* <ProjectTag
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
-        />
+        /> */}
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
